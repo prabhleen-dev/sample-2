@@ -153,6 +153,32 @@ nav a:hover {
     color: #f2d17b;
 }
 
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .service-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    header {
+        padding: 15px 20px;
+    }
+
+    .services, .about, .contact {
+        padding: 50px 20px;
+    }
+}
+
+
 footer {
     text-align: center;
     padding: 20px;
