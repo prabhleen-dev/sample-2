@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0a0f2d; /* deep navy */
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    background: rgba(10, 15, 45, 0.8);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f2d17b;
+    letter-spacing: 1px;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #f2d17b;
+}
+
+/* Hero */
+.hero {
+    height: 85vh;
+    background: linear-gradient(rgba(10,10,30,0.6), rgba(10,10,30,0.6)),
+                url("https://images.unsplash.com/photo-1600948836105-73ab3b6605b9?q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    color: #f2d17b;
+}
+
+.hero p {
+    margin-top: 15px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background: #f2d17b;
+    color: #0a0f2d;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #ffe9a3;
+}
+
+/* Services */
+.services {
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    color: #f2d17b;
+    margin-bottom: 40px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service-card h3 {
+    margin-top: 15px;
+    color: #f2d17b;
+}
+
+.service-card p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* About */
+.about {
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #f2d17b;
+}
+
+.about p {
+    margin-top: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contact */
+.contact {
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    color: #f2d17b;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: rgba(255,255,255,0.05);
+}
