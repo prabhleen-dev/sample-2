@@ -156,7 +156,7 @@ nav a:hover {
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
     .service-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         gap: 20px;
     }
 
